@@ -1,0 +1,69 @@
+
+body {
+	background-color:     #F5FFFA;
+}
+
+h1 {
+	text-align: center;
+	border: 10px dotted pink;
+}
+
+h2, h3{
+	text-align: center;
+}
+
+.pics {
+	display: flex;
+	justify-content: center;
+	border: 10px solid green;
+	width: fit-content;
+	margin: auto;
+}
+
+
+img {
+	display: flex;
+	justify-content: center;
+	max-width: 33.3%;
+	height: auto;
+}
+
+.journal, .things, .track {
+  background-color: white;       /* Looks like paper */
+  width: 80%;                    /* Doesn't touch the edges */
+  margin: 20px auto;             /* Centers the card */
+  padding: 20px;                 /* Space inside the card */
+  border-radius: 15px;           /* Rounded corners */
+  border: 2px dashed teal;      /* Matches your title theme */
+  box-shadow: 5px 5px 0px lightblue; /* A fun "hard" shadow */
+}
+
+
+/* Styling for links specifically inside the journal section */
+.journal a, .things a, .track a{
+  display: inline-block;      /* Makes it the size of the text, not full width */
+  background-color: lightblue;  /* The "Garden Pond" Teal you liked */
+  color: #222222;               /* White text */
+  padding: 10px 20px;         /* Adds space inside the button */
+  border-radius: 20px;        /* Makes it round like a pill or stone */
+  text-decoration: none;      /* Removes the blue underline */
+  border: none;               /* Removes the pink dotted line */
+  margin-top: 10px;           /* Adds space above it */
+  font-weight: bold;
+}
+
+/* Optional: Changes color when you hover over it */
+.journal a:hover, .things a:hover, .track a:hover{
+  background-color: #4682B4;  /* Turns Steel Blue when you touch it */
+  cursor: pointer;
+}
+
+.things a {
+    background-color: hotpink; /* Overrides the teal color just for things */
+		color:white;
+}
+
+.track a {
+	background-color: lavender;
+	color: #222222;
+}
