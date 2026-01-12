@@ -8,10 +8,15 @@ body {
   font-family: Corleone;
 }
 
+@font-face {
+  src: url("garden.ttf");
+  font-family: Garden;
+}
+
 h1 {
 	text-align: center;
 	border: 10px dotted pink;
-  font-family: Corleone;
+  font-family: Garden;
 }
 
 h2, h3{
