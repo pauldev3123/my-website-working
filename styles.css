@@ -13,10 +13,15 @@ body {
   font-family: Garden;
 }
 
+@font-face {
+  src: url("buzz.ttf");
+  font-family: Buzz;
+}
+
 h1 {
 	text-align: center;
 	border: 10px dotted pink;
-  font-family: Garden;
+  font-family: Buzz;
 }
 
 h2, h3{
