@@ -18,7 +18,7 @@ body {
   font-family: Buzz;
 }
 
-h1 {
+#title {
 	text-align: center;
 	border: 10px dotted pink;
   font-family: Buzz;
@@ -29,19 +29,12 @@ h2, h3{
   font-family: Corleone;
 }
 
-.pics {
+#intro-pics {
 	display: flex;
 	justify-content: center;
 	border: 10px solid green;
 	width: fit-content;
 	margin: auto;
-}
-
-
-img {
-	display: flex;
-	justify-content: center;
-	height:300px;
 }
 
 .journal, .things, .track {
