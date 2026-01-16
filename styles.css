@@ -5,11 +5,6 @@ body {
 }
 
 @font-face {
-  src: url("Corleone.ttf");
-  font-family: Corleone;
-}
-
-@font-face {
   src: url("garden.ttf");
   font-family: Garden;
 }
@@ -19,6 +14,13 @@ body {
   font-family: Buzz;
 }
 
+.happy-monkey-regular {
+  font-family: "Happy Monkey", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 #title {
 	text-align: center;
 	border: 10px dotted pink;
@@ -27,7 +29,7 @@ body {
 
 h2, h3{
 	text-align: center;
-  font-family: Corleone;
+  font-family: "Happy Monkey"
 }
 
 #div-pics {
